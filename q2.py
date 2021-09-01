@@ -10,3 +10,10 @@ print(requests.__version__)
 url = "https://www.google.com"
 res = requests.get(url).text
 print (res)
+
+#Q7
+url = "https://raw.githubusercontent.com/Hareem-E-Sahar/cmput404/master/q2.py"
+res = requests.get(url)
+print (res.text)
+
+
